@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-var usage = `Usage of gilo
- example: gilo Tyler Wray
+var usage = `Usage of teletype
+ example: teletype Tyler Wray
  output:
   _______    _            __          __
  |__   __|  | |           \ \        / /
