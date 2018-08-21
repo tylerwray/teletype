@@ -46,11 +46,12 @@ func ascii(words ...string) string {
 	url := fmt.Sprintf("http://artii.herokuapp.com/make?text=%s", strings.Join(words, "+"))
 
 	resp, err := http.Get(url)
-	defer resp.Body.Close()
 
 	if err != nil {
 		fmt.Print(err)
 	}
+
+	defer resp.Body.Close()
 
 	body, err := ioutil.ReadAll(resp.Body)
 
