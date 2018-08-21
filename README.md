@@ -2,9 +2,13 @@
 
 ASCII art generator for your terminal
 
+## Download
+
+Download the latest [binary release](https://github.com/tylerwray/teletype/releases) for your OS.
+
 ## Install
 
-Download the latest [release](https://github.com/tylerwray/teletype/releases) for your OS
+Make sure it's in your `$PATH`
 
 ## Usage
 
